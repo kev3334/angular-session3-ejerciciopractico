@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<div class="card">
+    <div class="card-header">
+      {{dataEntrante?.title}}
+    </div>
+    <div class="card-body">
+      <h5 class="card-title"><span id="valor"><b>$ {{dataEntrante?.precio}}</b></span> / mes</h5>
+      <p class="card-text">{{dataEntrante?.usuarios}} usuarios incluidos</p>
+      <p class="card-text">{{dataEntrante?.almacenamiento}} GB de almacenamiento</p>
+      <p class="card-text">{{dataEntrante?.soporte}}</p>
+      <p class="card-text">{{dataEntrante?.acceso}}</p>
+      <a href="#" class="btn btn-primary">{{dataEntrante?.boton}}</a>
+    </div>
+  </div>
